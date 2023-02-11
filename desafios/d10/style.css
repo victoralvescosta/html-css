@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d13;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1:'Oswald', cursive;
+    --fonte2: '._idroid.otf', sans-serif;
+}
+
+body {
+    background-color: rgba(222, 184, 135, 0.521);
+    font-family: var(--fonte0);
+    text-align: justify;
+}
+
+header {
+    background-color: var(--cor5);
+    padding: 50px;
+    margin: -9px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte1);
+    color: white;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.466);
+    font-weight: normal;
+}
+
+header > p {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.466);
+}
+
+nav > a {
+    font-family: var(--fonte1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.034);
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    border-radius: 5px;
+
+}
+
+main {
+
+    background-color: white;
+    margin: 10px auto 30px auto;
+    padding:2px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 0px rgb(0, 0, 0, 0.466);
+    min-width: 400px;
+    max-width: 800px;
+    line-height: 1.5em;
+}
+
+article > h1,h2 {
+    color: var(--cor5);
+    font-weight: normal;
+}
+
+article > h2 {
+    background-color: var(--cor1);
+    padding: 2px;
+    margin: 0px 0px 0px 10px;
+}
+
+article > p > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor5);
+    background-color: var(--cor1);
+}
+
+article > p > a:hover {
+    text-decoration: underline;
+}
+
+div.video {
+   background-color: var(--cor5);
+   margin: 0px -20px 30px -20px;
+   padding: 20px;
+   padding-bottom: 50%;
+   position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside#assunto1 {
+    font-family: var(--fonte1);
+    background-color: var(--cor5);
+    color: white;
+    padding: 1px;
+    margin: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside#assunto2 {
+    background-color: var(--cor1);
+    padding: 1px;
+    margin-top: -20px;
+    
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+footer > p {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.466);
+    padding: 5px;
+    margin: -10px;
+}
